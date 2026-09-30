@@ -13,7 +13,10 @@ comparing three matchers: a fuzzy baseline, attribute matching, and a hybrid.
 ## Results — frozen test split
 
 200 rows, 275-SKU catalog, one LLM extraction run (10 batches, 0 fallbacks).
-Model `space-bunny-free` via OpenCode Zen, temperature 0. Test set SHA256
+Model `space-bunny-free` via OpenCode Zen, temperature 0 — a **free-tier model,
+whose name may change or disappear**. The raw extraction responses are committed
+in `cache/` for exactly that reason, so these numbers stay reproducible offline
+even if the endpoint or model is retired. Test set SHA256
 `3ccceeae8f9a2bb19538f6f7c95ba9ebaff0a94a5a5ab855c14fa0216e34cf69`.
 
 | Matcher | Top-1 | False-match | Gap recall | Gap precision | Review rate | Auto rate |
@@ -23,8 +26,10 @@ Model `space-bunny-free` via OpenCode Zen, temperature 0. Test set SHA256
 | C hybrid | **82.0%** | 6.0% | 90.0% | 52.9% | 0.0% | 74.5% |
 
 UoM pack-size accuracy: **21.7%** on the 23 rows that state a pack unit.
-Cost of the frozen run: **10 LLM calls, 68,449 tokens, 0 fallbacks** (~17 min of
-model wall-clock, batches dispatched 8-way concurrent).
+Cost of the frozen run: **10 LLM calls, 68,449 tokens, 0 fallbacks**. The ~17 min
+is the *sum* of the individual call times (the harness records per-call seconds
+and adds them up), not elapsed time; with 8 concurrent workers, real wall-clock
+was shorter.
 
 **Read B and C carefully.** C wins on top-1 (82.0%) but has a *higher* false-match
 rate than B (6.0% vs 2.0%) because its fuzzy tiebreak auto-resolves cases B would
@@ -91,7 +96,8 @@ python run_eval.py --split test
 
 The committed LLM responses in `cache/` are keyed by prompt + batch, so this run
 replays them and needs **no API key and no network** — it prints `cache_hits=10,
-llm_calls=0`. The harness re-checks `data/test.csv` against its SHA256 in
+llm_calls=0`. This is also what makes the result survive the free-tier model being
+renamed or retired. The harness re-checks `data/test.csv` against its SHA256 in
 `data/manifest.json` **before** scoring, so a silently edited test set cannot
 produce a flattering number. To re-extract from scratch (cache miss) instead,
 copy `.env.example` to `.env`, set `LLM_API_KEY`, and run the same command.
@@ -107,8 +113,21 @@ python -m pytest tests -q
 
 ## Protocol
 
-The test set is generated and hashed **before** any matcher is written, and it is
-never edited afterwards.
+The test set was generated and hashed before any matcher was written, and it has
+never been edited afterwards. **This repo was split out of the original project as
+a single fresh commit, so the commit history here cannot show that ordering.**
+What this repo *can* verify, on every run, is that the hash is recorded in
+`data/manifest.json` and re-checked before scoring — both by `run_eval.py` and by
+`tests/test_benchmark.py`.
+
+**Did matcher code change after the results were first seen?** No. `matchers.py`,
+`normalize.py`, `uom.py` and `metrics.py` are byte-identical to the versions that
+produced the committed results, and no commit after the results touched them. The
+check that matters is mechanical, not historical: replaying the committed cached
+responses through the committed code reproduces `results/test_*.csv` exactly, so
+the code, the cache and the numbers in this repo agree with one another. The only
+post-run changes were documentation, plus — when the repo was split out — import
+paths, docstrings, and the vendoring of the two small support modules.
 
 | | |
 |---|---|
@@ -172,6 +191,7 @@ tests/               # offline, deterministic invariant tests
 | Rows / catalog | 200 / 275 |
 | LLM calls / tokens | 10 / 68,449 |
 | Fallbacks | 0 |
+| Model | `space-bunny-free` (OpenCode Zen free tier; name may change — see `cache/`) |
 | Prompt | compact JSON schema, short keys, 8 attributes |
 | max_tokens | 16384 |
 
