@@ -1,0 +1,202 @@
+[
+ {
+  "type": "Hex Bolt",
+  "size": null,
+  "thread": "1/2-13",
+  "length": "1.5\"",
+  "material": null,
+  "finish": "Zinc",
+  "grade": "Grade 5",
+  "bearing": null
+ },
+ {
+  "type": "Globe Vlv",
+  "size": "1-1/4",
+  "thread": null,
+  "length": null,
+  "material": "SS",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Deep Groove Ball Bearing",
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": "6200-2Z"
+ },
+ {
+  "type": "Ball Valve",
+  "size": "1/4",
+  "thread": null,
+  "length": null,
+  "material": "Stainless Steel",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Elb90",
+  "size": "\"2",
+  "thread": null,
+  "length": null,
+  "material": "Brass",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Hx Blt",
+  "size": null,
+  "thread": "M10",
+  "length": "50",
+  "material": null,
+  "finish": "Zn Pltd",
+  "grade": "10.9",
+  "bearing": null
+ },
+ {
+  "type": "Hx Blt",
+  "size": null,
+  "thread": "1/4-20",
+  "length": "1.5\"",
+  "material": null,
+  "finish": "Zimc",
+  "grade": "Gr5",
+  "bearing": null
+ },
+ {
+  "type": "Hex Nut",
+  "size": null,
+  "thread": "7/16-14",
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": "Grade 8",
+  "bearing": null
+ },
+ {
+  "type": "Pipe Nipple",
+  "size": "1/2\"",
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": "Black",
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Tee",
+  "size": "3/8",
+  "thread": null,
+  "length": null,
+  "material": "Carbon Steel",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Deep Groove Ball Bearing",
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": "6303-2RS"
+ },
+ {
+  "type": "DGB",
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": "B6200-2Z"
+ },
+ {
+  "type": "Gate Valve",
+  "size": "3\"",
+  "thread": null,
+  "length": null,
+  "material": "Bronze",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Globe Vlv",
+  "size": "1/2",
+  "thread": null,
+  "length": null,
+  "material": "SS",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Hex Bolt",
+  "size": null,
+  "thread": "5/16-18",
+  "length": "2",
+  "material": null,
+  "finish": "Pla",
+  "grade": "Grade 8",
+  "bearing": null
+ },
+ {
+  "type": "Deep Groove Ball Bearing",
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": "6203-ZZ"
+ },
+ {
+  "type": "Tee",
+  "size": "1/2\"",
+  "thread": null,
+  "length": null,
+  "material": "SS",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Cplg",
+  "size": "11-/2 \"",
+  "thread": null,
+  "length": null,
+  "material": "PVC",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Coupling",
+  "size": "3/4\"",
+  "thread": null,
+  "length": null,
+  "material": "Brass",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Globe Valve",
+  "size": "1/4",
+  "thread": null,
+  "length": null,
+  "material": "Stainless Steel",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ }
+]

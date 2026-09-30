@@ -1,0 +1,202 @@
+[
+ {
+  "type": "Hx Blt",
+  "size": null,
+  "thread": "3/8-24",
+  "length": "2\"",
+  "material": null,
+  "finish": "Zn Yel",
+  "grade": "Gr5",
+  "bearing": null
+ },
+ {
+  "type": "Hex Bolt",
+  "size": null,
+  "thread": "3/8-16",
+  "length": "3\"",
+  "material": null,
+  "finish": "Zinc",
+  "grade": "Grade 5",
+  "bearing": null
+ },
+ {
+  "type": null,
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Ball Valve",
+  "size": "4\"",
+  "thread": null,
+  "length": null,
+  "material": "Stainless",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": null,
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Gloeb Vlv",
+  "size": "1/ 4",
+  "thread": null,
+  "length": null,
+  "material": "SS",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Reducer",
+  "size": "1/2",
+  "thread": null,
+  "length": null,
+  "material": "PVC",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Deep Groove Ball Bearing",
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": "6000-ZZ"
+ },
+ {
+  "type": "Globe Valve",
+  "size": "3/4",
+  "thread": null,
+  "length": null,
+  "material": "Bronze",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Coupling",
+  "size": "1\"",
+  "thread": null,
+  "length": null,
+  "material": "Brass",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Hex Bolt",
+  "size": null,
+  "thread": "5/16-18",
+  "length": "1\"",
+  "material": null,
+  "finish": "Zinc",
+  "grade": "Grade 8",
+  "bearing": null
+ },
+ {
+  "type": "Globe Valve",
+  "size": "1/2",
+  "thread": null,
+  "length": null,
+  "material": "Stainless Steel",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Hx Blt",
+  "size": null,
+  "thread": "5/16-18",
+  "length": "3.5\"",
+  "material": null,
+  "finish": "Zinc",
+  "grade": "Gr8",
+  "bearing": null
+ },
+ {
+  "type": "Ball Valve",
+  "size": "1/4",
+  "thread": null,
+  "length": null,
+  "material": "Stainless Steel",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Hx Blt",
+  "size": null,
+  "thread": "1/4-28",
+  "length": "1.25\"",
+  "material": null,
+  "finish": "Plain",
+  "grade": "Gr8",
+  "bearing": null
+ },
+ {
+  "type": "Hex Bolt",
+  "size": null,
+  "thread": "7/16-14",
+  "length": "4\"",
+  "material": null,
+  "finish": "Plain",
+  "grade": "Grade 5",
+  "bearing": null
+ },
+ {
+  "type": "Globe Vlv",
+  "size": "1",
+  "thread": null,
+  "length": null,
+  "material": "SS",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Worm Gear Hose Clamp",
+  "size": "3/4",
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Hex Bolt",
+  "size": null,
+  "thread": "M16",
+  "length": "100",
+  "material": null,
+  "finish": "Black Oxide",
+  "grade": "Grade 12.9",
+  "bearing": null
+ },
+ {
+  "type": "Elbow",
+  "size": "4\"",
+  "thread": null,
+  "length": null,
+  "material": "Stainless",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ }
+]

@@ -1,0 +1,21 @@
+# Secrets — never commit. Keep the placeholder template visible.
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Scratch. The cached LLM *responses* in cache/extract_*.json ARE committed so a
+# rerun replays offline; only the per-run usage log and loose logs stay out.
+cache/usage.jsonl
+*.log
+*_err.txt
+*_out.txt

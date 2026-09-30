@@ -1,0 +1,202 @@
+[
+ {
+  "type": "Globe Valve",
+  "size": "1/8",
+  "thread": null,
+  "length": null,
+  "material": "Brass",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Tee",
+  "size": "1/2\"",
+  "thread": null,
+  "length": null,
+  "material": "SS",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Deep Groove Ball Bearing",
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": "6006-2Z"
+ },
+ {
+  "type": "DGBB",
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": "6001-2RS"
+ },
+ {
+  "type": "Hex Bolt",
+  "size": null,
+  "thread": "M16",
+  "length": "100",
+  "material": null,
+  "finish": "Black Oxide",
+  "grade": "12.9",
+  "bearing": null
+ },
+ {
+  "type": "Flat Washer",
+  "size": "7/16",
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": "Zinc Yellow",
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "DGBB",
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": "6005-2Z"
+ },
+ {
+  "type": "Reducer",
+  "size": "1/2\"",
+  "thread": null,
+  "length": null,
+  "material": "PVC",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Hydraulic Fitting",
+  "size": null,
+  "thread": "JIC 3/4-16",
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Flat Washer",
+  "size": "M20",
+  "thread": null,
+  "length": null,
+  "material": "Stainless",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": null,
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Carriage Bolt",
+  "size": null,
+  "thread": "3/8-16",
+  "length": "4",
+  "material": null,
+  "finish": "Zinc",
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Hex Bolt",
+  "size": null,
+  "thread": "5/16-18",
+  "length": "2.5\"",
+  "material": null,
+  "finish": "Zinc",
+  "grade": "Grade 5",
+  "bearing": null
+ },
+ {
+  "type": "Anchor Bolt",
+  "size": null,
+  "thread": "M16",
+  "length": "180",
+  "material": null,
+  "finish": "Hot Dip Galv",
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": null,
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Grooved Coupling",
+  "size": "6\"",
+  "thread": null,
+  "length": null,
+  "material": "Ductile Iron",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Hex Head Bolt",
+  "size": null,
+  "thread": "3/8-16",
+  "length": "2.5\"",
+  "material": null,
+  "finish": "Zinc Yellow",
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "DGBB",
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": "2601-2Z"
+ },
+ {
+  "type": "Globe Valve",
+  "size": "1",
+  "thread": null,
+  "length": null,
+  "material": "Brass",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Hx Blt",
+  "size": null,
+  "thread": "3/4-10",
+  "length": "4\"",
+  "material": null,
+  "finish": "Zm Yel",
+  "grade": "rG5",
+  "bearing": null
+ }
+]

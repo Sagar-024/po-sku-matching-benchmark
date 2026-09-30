@@ -1,0 +1,68 @@
+{
+  "split": "dev",
+  "frozen_test_sha256": "d98aa387564f55c37455ad9cc7840414cae36e5d836b94749079e95ffd8080e6",
+  "usage": {
+    "llm_calls": 1,
+    "prompt_tokens": 773,
+    "completion_tokens": 4709,
+    "total_tokens": 5482,
+    "cache_hits": 0,
+    "fallbacks": 11
+  },
+  "uom_accuracy": 0.1667,
+  "uom_rows_checked": 6,
+  "best_matcher": "C_hybrid",
+  "matchers": [
+    {
+      "name": "A_baseline_fuzzy",
+      "top1_accuracy": 0.59,
+      "false_match_rate": 0.09,
+      "false_match_share_of_auto": 0.1957,
+      "gap_recall": 0.4667,
+      "gap_precision": 0.2333,
+      "review_rate": 0.24,
+      "auto_rate": 0.46,
+      "counts": {
+        "total": 100,
+        "correct": 59,
+        "false_match": 9,
+        "missed": 23,
+        "false_gap": 9
+      }
+    },
+    {
+      "name": "B_attribute",
+      "top1_accuracy": 0.66,
+      "false_match_rate": 0.02,
+      "false_match_share_of_auto": 0.0417,
+      "gap_recall": 0.8667,
+      "gap_precision": 0.3514,
+      "review_rate": 0.15,
+      "auto_rate": 0.48,
+      "counts": {
+        "total": 100,
+        "correct": 66,
+        "false_match": 2,
+        "missed": 24,
+        "false_gap": 8
+      }
+    },
+    {
+      "name": "C_hybrid",
+      "top1_accuracy": 0.71,
+      "false_match_rate": 0.04,
+      "false_match_share_of_auto": 0.0645,
+      "gap_recall": 0.8667,
+      "gap_precision": 0.3514,
+      "review_rate": 0.01,
+      "auto_rate": 0.62,
+      "counts": {
+        "total": 100,
+        "correct": 71,
+        "false_match": 4,
+        "missed": 24,
+        "false_gap": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+[
+ {
+  "type": "Globe Valve",
+  "size": "3/4",
+  "thread": null,
+  "length": null,
+  "material": "Brass",
+  "finish": null,
+  "grade": "125#",
+  "bearing": null
+ },
+ {
+  "type": "Ball Valve",
+  "size": "1/8",
+  "thread": null,
+  "length": null,
+  "material": "Stainless Steel",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "DGBB",
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": "6205-2RS"
+ },
+ {
+  "type": "Hx Blt",
+  "size": null,
+  "thread": "7/1-614",
+  "length": "2.5\"",
+  "material": null,
+  "finish": "Plain",
+  "grade": "Gr5",
+  "bearing": null
+ },
+ {
+  "type": "Hx Blt",
+  "size": null,
+  "thread": "3/8-2 4",
+  "length": "1.5\"",
+  "material": null,
+  "finish": "Plain",
+  "grade": "Gr5",
+  "bearing": null
+ },
+ {
+  "type": "Elb90",
+  "size": "1\"",
+  "thread": null,
+  "length": null,
+  "material": "PVC",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Deep Groove Ball Bearing",
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": "6302-ZZ"
+ },
+ {
+  "type": "Hex Bolt",
+  "size": null,
+  "thread": "3/8-16",
+  "length": "1.5",
+  "material": null,
+  "finish": "Zinc",
+  "grade": "Grade 5",
+  "bearing": null
+ },
+ {
+  "type": "Hex Bolt",
+  "size": null,
+  "thread": "5/16-18",
+  "length": "2.5\"",
+  "material": null,
+  "finish": "Zinc",
+  "grade": "Grade 5",
+  "bearing": null
+ },
+ {
+  "type": "Globe Vlv",
+  "size": "1-1/4",
+  "thread": null,
+  "length": null,
+  "material": "Bronze",
+  "finish": null,
+  "grade": "150#",
+  "bearing": null
+ },
+ {
+  "type": "DGBB",
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": "6005-2RS"
+ },
+ {
+  "type": "Globe Valve",
+  "size": "1/2",
+  "thread": null,
+  "length": null,
+  "material": "Carbon Steel",
+  "finish": null,
+  "grade": "200#",
+  "bearing": null
+ },
+ {
+  "type": null,
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Reducer",
+  "size": "1-1/2",
+  "thread": null,
+  "length": null,
+  "material": "Stainless Steel",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Globe Valve",
+  "size": "3/8",
+  "thread": null,
+  "length": null,
+  "material": "Bronze",
+  "finish": null,
+  "grade": "125#",
+  "bearing": null
+ },
+ {
+  "type": "Rdc",
+  "size": "1-1/4\"",
+  "thread": null,
+  "length": null,
+  "material": "Brass",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Deep Bearing Groove",
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": "6201-2Z"
+ },
+ {
+  "type": "Reducer",
+  "size": "1-1/4\"",
+  "thread": null,
+  "length": null,
+  "material": "PVC",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": null,
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "H xBlt",
+  "size": null,
+  "thread": "1/2-20",
+  "length": "2\"",
+  "material": null,
+  "finish": "Zinc",
+  "grade": "Gr5",
+  "bearing": null
+ }
+]

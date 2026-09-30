@@ -1,0 +1,201 @@
+id,text,expected_sku,is_gap,style,category,outcome,predicted_sku,confidence,reason,verdict
+test-000,50 Carton Globe Valve 3/4 Brass 125# Flanged,GV-34-Brass-125,False,pack,valve,AUTO_MATCH,GV-34-Brass-125,0.750,attributes agree 75,correct
+test-001,10 Box Ball Valve 1/8 Stainless Steel 2-Way Full Port,BV-18-Stainless Steel,False,pack,valve,AUTO_MATCH,BV-18-Stainless Steel,0.650,attributes agree 65,correct
+test-002,DGBB 6205-2RS,BRG-6205-2RS,False,german,bearing,AUTO_MATCH,BRG-6205-2RS,0.750,attributes agree 75,correct
+test-003,"Hx Blt 7/1-614  x2.5"" Gr5 Plain",HB-716-14-25-Grade 5-Plain,False,typo,fastener,GAP,,0.000,every candidate conflicted,missed
+test-004,"Hx Blt 3/8-2 4x 1.5"" Gr5 Plain",HB-38-24-15-Grade 5-Plain,False,typo,fastener,NEEDS_REVIEW,HB-38-16-15-Grade 5-Plain,0.700,ambiguous vs HB-38-24-15-Grade 5-Plain,false_gap
+test-005,"PVC Elb90 1"" Sc h40",FT-Elbow 90-1-PVC-50,False,typo,fitting,AUTO_MATCH,FT-Elbow 90-1-PVC-50,0.650,attributes agree 65,correct
+test-006,Deep Groove Ball Bearing 6302-ZZ,BRG-6302-ZZ,False,metric,bearing,AUTO_MATCH,BRG-6302-ZZ,0.750,attributes agree 75,correct
+test-007,Hex Bolt 3/8-16 x 1.5 Grade 5 Zinc Hex Head,HB-38-16-15-Grade 5-Zinc,False,missing_unit,fastener,AUTO_MATCH,HB-38-16-15-Grade 5-Zinc,1.350,attributes agree 135,correct
+test-008,"Hex Bolt 5/16-18 x 2.5"" Grade 5 Zinc Hex Head",HB-516-18-25-Grade 5-Zinc,False,metric,fastener,AUTO_MATCH,HB-516-18-25-Grade 5-Zinc,1.350,attributes agree 135,correct
+test-009,Globe Vlv 1-1/4 Bronze 150#,GV-114-Bronze-150,False,typo,valve,AUTO_MATCH,GV-114-Bronze-150,0.750,attributes agree 75,correct
+test-010,DGBB 6005-2RS,BRG-6005-2RS,False,abbrev,bearing,AUTO_MATCH,BRG-6005-2RS,0.750,attributes agree 75,correct
+test-011,Globe Valve 1/2 Carbon Steel 200# Flanged,GV-12-Carbon Steel-200,False,missing_unit,valve,AUTO_MATCH,GV-12-Carbon Steel-200,0.750,attributes agree 75,correct
+test-012,PN-84368B,HB-38-24-2-Grade 5-Zinc Yellow,False,customer_pn,fastener,GAP,,0.000,no attributes extracted,missed
+test-013,Stainless Steel Reducer 1-1/2 Sch 40,FT-Reducer-112-Stainless Steel-1,False,missing_unit,fitting,AUTO_MATCH,FT-Reducer-112-Stainless Steel-1,0.650,attributes agree 65,correct
+test-014,Globe Valve 3/8 Bronze 125# Flanged,GV-38-Bronze-125,False,verbatim,valve,AUTO_MATCH,GV-38-Bronze-125,0.750,attributes agree 75,correct
+test-015,"Brass Rdc 1-1/4"" Sch 40",FT-Reducer-114-Brass-50,False,abbrev,fitting,AUTO_MATCH,FT-Reducer-114-Brass-50,0.650,attributes agree 65,correct
+test-016,Deep Bearing Groove 6201-2Z Ball,BRG-6201-2Z,False,wordorder,bearing,AUTO_MATCH,BRG-6201-2Z,0.750,attributes agree 75,correct
+test-017,"PVC Reducer 1-1/4"" Sch 40",FT-Reducer-114-PVC-10,False,metric,fitting,AUTO_MATCH,FT-Reducer-114-PVC-10,0.650,attributes agree 65,correct
+test-018,PN-81237B,HBM-M12-35-A270,False,customer_pn,fastener,GAP,,0.000,no attributes extracted,missed
+test-019,"H xBlt 1/2-20 x 2"" Gr5 Zinc",HB-12-20-2-Grade 5-Zinc,False,typo,fastener,AUTO_MATCH,HB-12-20-2-Grade 5-Zinc,1.050,attributes agree 105,correct
+test-020,"50 Carton PVC Coupling 1/2"" Sch 40",FT-Coupling-12-PVC-50,False,pack,fitting,AUTO_MATCH,FT-Coupling-12-PVC-50,0.650,attributes agree 65,correct
+test-021,Deep Groove Ball Bearing 6302-ZZ,BRG-6302-ZZ,False,verbatim,bearing,AUTO_MATCH,BRG-6302-ZZ,0.750,attributes agree 75,correct
+test-022,"10 Box Carbon Steel Elbow 90 1/2"" Sch 40",FT-Elbow 90-12-Carbon Steel-10,False,pack,fitting,NEEDS_REVIEW,FT-Elbow 90-12-Carbon Steel-1,0.650,ambiguous vs FT-Elbow 90-12-Carbon Steel-10,false_gap
+test-023,Hx Blt M10x16 10.9 ISO 4762 Zn Pltd,HBM-M10-16-109,False,german,fastener,AUTO_MATCH,HBM-M10-16-109,1.200,attributes agree 120,correct
+test-024,25 Box Globe Valve 2 Brass 150# Flanged,GV-2-Brass-150,False,pack,valve,AUTO_MATCH,GV-2-Brass-150,0.650,attributes agree 65,correct
+test-025,"Hex 3/8-16 x 5 Head Hex Zinc 2"" Bolt Grade",HB-38-16-2-Grade 5-Zinc,False,wordorder,fastener,AUTO_MATCH,HB-38-16-2-Grade 5-Zinc,1.350,attributes agree 135,correct
+test-026,Hex Nut 7/16-28 Zinc,,True,gap,gap,GAP,,0.000,every candidate conflicted,correct
+test-027,Hx Nut 7/16-14 ASME B18.2.2 Gr8,HN-716-14-Grade 8,False,german,fastener,AUTO_MATCH,HN-716-14-Grade 8,1.050,attributes agree 105,correct
+test-028,DGBB 6001-2Z,BRG-6001-2Z,False,abbrev,bearing,AUTO_MATCH,BRG-6001-2Z,0.750,attributes agree 75,correct
+test-029,"Hx Blt 3/4-10 x 4"" Gr5 Zn Yel",HB-34-10-4-Grade 5-Zinc Yellow,False,abbrev,fastener,AUTO_MATCH,HB-34-10-4-Grade 5-Zinc Yellow,1.350,attributes agree 135,correct
+test-030,"Hx Blt 5/16-18 x 1.5"" Gr8 Plain",HB-516-18-15-Grade 8-Plain,False,german,fastener,AUTO_MATCH,HB-516-18-15-Grade 8-Plain,1.350,attributes agree 135,correct
+test-031,PN-60282,HB-34-10-4-Grade 5-Zinc Yellow,False,customer_pn,fastener,GAP,,0.000,no attributes extracted,missed
+test-032,Deep Groove Ball Bearing 6201-ZZ,BRG-6201-ZZ,False,verbatim,bearing,AUTO_MATCH,BRG-6201-ZZ,0.750,attributes agree 75,correct
+test-033,"Hx Blt 3/8-16 x 0.5"" Gr8 Zn Yel",HB-38-16-05-Grade 8-Zinc Yellow,False,german,fastener,AUTO_MATCH,HB-38-16-05-Grade 8-Zinc Yellow,1.350,attributes agree 135,correct
+test-034,INT-56170B,HB-38-24-3-Grade 5-Zinc,False,customer_pn,fastener,GAP,,0.000,no attributes extracted,missed
+test-035,INT-98478-A,BRG-6302-2Z,False,customer_pn,bearing,GAP,,0.000,no attributes extracted,missed
+test-036,Ball Valve 3/4 Brass 2-Way Full Port,BV-34-Brass,False,missing_unit,valve,AUTO_MATCH,BV-34-Brass,0.650,attributes agree 65,correct
+test-037,"Hex Yellow 1/2-13 5 Head Hex Zinc Grade 1.5"" x Bolt",HB-12-13-15-Grade 5-Zinc Yellow,False,wordorder,fastener,AUTO_MATCH,HB-12-13-15-Grade 5-Zinc Yellow,1.350,attributes agree 135,correct
+test-038,Globe Vlv 1/2 SS 200#,GV-12-Stainless Steel-200,False,typo,valve,AUTO_MATCH,GV-12-Stainless Steel-200,0.650,attributes agree 65,correct
+test-039,INT-67136-A,FT-Elbow 90-38-Carbon Steel-50,False,customer_pn,fitting,GAP,,0.000,no attributes extracted,missed
+test-040,"Hex Grade 5 Zinc 1/2-13 Bolt Yellow x 1.5"" Head Hex",HB-12-13-15-Grade 5-Zinc Yellow,False,wordorder,fastener,AUTO_MATCH,HB-12-13-15-Grade 5-Zinc,1.350,attributes agree 135,false_match
+test-041,Globe Vlv 1-1/4 SS 150#,GV-114-Stainless Steel-150,False,german,valve,NEEDS_REVIEW,GV-114-Stainless Steel-125,0.650,ambiguous vs GV-114-Stainless Steel-150,false_gap
+test-042,Deep Groove Ball Bearing 6200-2Z,BRG-6200-2Z,False,metric,bearing,AUTO_MATCH,BRG-6200-2Z,0.750,attributes agree 75,correct
+test-043,Ball Valve 1/4 Stainless Steel 2-Way Full Port,BV-14-Stainless Steel,False,missing_unit,valve,AUTO_MATCH,BV-14-Stainless Steel,0.650,attributes agree 65,correct
+test-044,"Brass Elb90 ""2 Sch 40",FT-Elbow 90-2-Brass-50,False,typo,fitting,NEEDS_REVIEW,FT-Elbow 90-2-Brass-1,0.650,ambiguous vs FT-Elbow 90-2-Brass-50,false_gap
+test-045,Hx Blt M10x50 10.9 ISO 4762 Zn Pltd,HBM-M10-50-109,False,german,fastener,AUTO_MATCH,HBM-M10-50-109,1.200,attributes agree 120,correct
+test-046,"Hx Blt 1/4-20 x 1.5"" Gr5 Zimc",HB-14-20-15-Grade 5-Zinc,False,typo,fastener,NEEDS_REVIEW,HB-14-20-15-Grade 5-Zinc,1.250,ambiguous vs HB-14-20-15-Grade 5-Zinc Yellow,correct
+test-047,Hex Nut 7/16-14 ASME B18.2.2 Grade 8,HN-716-14-Grade 8,False,missing_unit,fastener,AUTO_MATCH,HN-716-14-Grade 8,1.050,attributes agree 105,correct
+test-048,"Pipe Nipple 1/2"" Black 4"" Long",,True,gap,gap,NEEDS_REVIEW,BV-12-Stainless Steel,0.250,weak evidence 25,false_match
+test-049,Carbon Steel Tee 3/8 Sch 40,FT-Tee-38-Carbon Steel-10,False,missing_unit,fitting,AUTO_MATCH,FT-Tee-38-Carbon Steel-10,0.650,attributes agree 65,correct
+test-050,Deep Groove Ball Bearing 6303-2RS,BRG-6303-2RS,False,metric,bearing,AUTO_MATCH,BRG-6303-2RS,0.750,attributes agree 75,correct
+test-051,DGB B6200-2Z,BRG-6200-2Z,False,typo,bearing,GAP,,0.000,below review floor,missed
+test-052,"Gate Valve 3"" Bronze 125#",,True,gap,gap,GAP,,0.000,every candidate conflicted,correct
+test-053,Globe Vlv 1/2 SS 200#,GV-12-Stainless Steel-200,False,abbrev,valve,AUTO_MATCH,GV-12-Stainless Steel-200,0.650,attributes agree 65,correct
+test-054,Hex Bolt 5/16-18 x 2 Grade 8 Pla Hex Head,HB-516-18-2-Grade 8-Plain,False,missing_unit,fastener,NEEDS_REVIEW,HB-516-18-2-Grade 8-Plain,1.250,ambiguous vs HB-516-18-2-Grade 8-Zinc Yellow,correct
+test-055,Deep Groove Ball Bearing 6203-ZZ,BRG-6203-ZZ,False,metric,bearing,AUTO_MATCH,BRG-6203-ZZ,0.750,attributes agree 75,correct
+test-056,"SS Tee 1/2"" Sch 40",FT-Tee-12-Stainless Steel-1,False,german,fitting,AUTO_MATCH,FT-Tee-12-Stainless Steel-1,0.650,attributes agree 65,correct
+test-057,"PVC Cplg 11-/2 ""Sch 40",FT-Coupling-112-PVC-50,False,typo,fitting,NEEDS_REVIEW,FT-Coupling-112-PVC-50,0.400,weak evidence 40,correct
+test-058,"Brass Coupling 3/4"" Sch 40",FT-Coupling-34-Brass-1,False,metric,fitting,AUTO_MATCH,FT-Coupling-34-Brass-1,0.650,attributes agree 65,correct
+test-059,Globe Valve 1/4 Stainless Steel 150# Flanged,GV-14-Stainless Steel-150,False,missing_unit,valve,NEEDS_REVIEW,GV-14-Stainless Steel-150,0.650,ambiguous vs GV-14-Stainless Steel-200,correct
+test-060,PN-98972-A,GV-34-Stainless Steel-300,False,customer_pn,valve,GAP,,0.000,no attributes extracted,missed
+test-061,Globe Valve 1-1/2 Carbon Steel 200# Flanged,GV-112-Carbon Steel-200,False,verbatim,valve,AUTO_MATCH,GV-112-Carbon Steel-200,0.750,attributes agree 75,correct
+test-062,Deep 6201-2RS Bearing Groove Ball,BRG-6201-2RS,False,wordorder,bearing,AUTO_MATCH,BRG-6201-2RS,0.750,attributes agree 75,correct
+test-063,"Ball Valve 3"" Bronze 125# Threaded",,True,gap,gap,GAP,,0.000,every candidate conflicted,correct
+test-064,CUST-38554,GV-114-Stainless Steel-200,False,customer_pn,valve,GAP,,0.000,no attributes extracted,missed
+test-065,"Brass Cplg 3/4"" Sch 40",FT-Coupling-34-Brass-1,False,abbrev,fitting,AUTO_MATCH,FT-Coupling-34-Brass-1,0.650,attributes agree 65,correct
+test-066,"50 Carton Stainless Steel Tee 1/2"" Sch 40",FT-Tee-12-Stainless Steel-1,False,pack,fitting,AUTO_MATCH,FT-Tee-12-Stainless Steel-1,0.650,attributes agree 65,correct
+test-067,DGBB 6005-ZZ,BRG-6005-ZZ,False,typo,bearing,AUTO_MATCH,BRG-6005-ZZ,0.750,attributes agree 75,correct
+test-068,DGBB 6002-ZZ,BRG-6002-ZZ,False,typo,bearing,AUTO_MATCH,BRG-6002-ZZ,0.750,attributes agree 75,correct
+test-069,"Hx Blt 1/2-20 x 3"" Gr5 verzinkt",HB-12-20-3-Grade 5-Zinc,False,german,fastener,AUTO_MATCH,HB-12-20-3-Grade 5-Zinc,1.350,attributes agree 135,correct
+test-070,DGBB 6206-ZZ,BRG-6206-ZZ,False,abbrev,bearing,AUTO_MATCH,BRG-6206-ZZ,0.750,attributes agree 75,correct
+test-071,Globe Vlv 1/4 SS 200#,GV-14-Stainless Steel-200,False,abbrev,valve,AUTO_MATCH,GV-14-Stainless Steel-200,0.750,attributes agree 75,correct
+test-072,"Globe Valve 4"" Carbon Steel 600#",,True,gap,gap,GAP,,0.000,every candidate conflicted,correct
+test-073,"PVC Elb9 01/2"" Sch 40",FT-Elbow 90-12-PVC-10,False,typo,fitting,NEEDS_REVIEW,FT-Coupling-12-PVC-50,0.350,weak evidence 35,false_gap
+test-074,"Ball Valve 1/2"" PVC 150#",,True,gap,gap,GAP,,0.000,every candidate conflicted,correct
+test-075,SKU-94887-R2,FT-Coupling-2-Brass-50,False,customer_pn,fitting,GAP,,0.000,no attributes extracted,missed
+test-076,Taper Lock Bushing 2517,,True,gap,gap,GAP,,0.000,no attributes extracted,correct
+test-077,Hex Bolt M14 x 60 8.8 Zinc,,True,gap,gap,GAP,,0.000,every candidate conflicted,correct
+test-078,"Hx Blt 7/16-14 x 4"" Gr5 Zn Yel",HB-716-14-4-Grade 5-Zinc Yellow,False,german,fastener,AUTO_MATCH,HB-716-14-4-Grade 5-Zinc Yellow,1.350,attributes agree 135,correct
+test-079,"10 Box PVC Elbow 90 1-1/2"" Sch 40",FT-Elbow 90-112-PVC-10,False,pack,fitting,AUTO_MATCH,FT-Elbow 90-112-PVC-10,0.650,attributes agree 65,correct
+test-080,"Hx Blt 3/8-24 x 2"" Gr5 Zn Yel",HB-38-24-2-Grade 5-Zinc Yellow,False,german,fastener,AUTO_MATCH,HB-38-24-2-Grade 5-Zinc Yellow,1.350,attributes agree 135,correct
+test-081,"50 Carton Hex Bolt 3/8-16 x 3"" Grade 5 Zinc Hex Head",HB-38-16-3-Grade 5-Zinc,False,pack,fastener,AUTO_MATCH,HB-38-16-3-Grade 5-Zinc,1.350,attributes agree 135,correct
+test-082,SKU-43390,BRG-6200-ZZ,False,customer_pn,bearing,GAP,,0.000,no attributes extracted,missed
+test-083,"Ball Valve 4"" Stainless 600#",,True,gap,gap,GAP,,0.000,every candidate conflicted,correct
+test-084,SKU-39542-R2,FT-Tee-34-PVC-1,False,customer_pn,fitting,GAP,,0.000,no attributes extracted,missed
+test-085,Gloeb Vlv 1/ 4SS 200#,GV-14-Stainless Steel-200,False,typo,valve,NEEDS_REVIEW,BV-14-Stainless Steel,0.350,weak evidence 35,false_gap
+test-086,PVC Reducer 1/2 Sch 40,FT-Reducer-12-PVC-10,False,missing_unit,fitting,AUTO_MATCH,FT-Reducer-12-PVC-10,0.650,attributes agree 65,correct
+test-087,10 Box Deep Groove Ball Bearing 6000-ZZ,BRG-6000-ZZ,False,pack,bearing,AUTO_MATCH,BRG-6000-ZZ,0.750,attributes agree 75,correct
+test-088,50 Carton Globe Valve 3/4 Bronze 200# Flanged,GV-34-Bronze-200,False,pack,valve,NEEDS_REVIEW,GV-34-Bronze-150,0.650,ambiguous vs GV-34-Bronze-200,false_gap
+test-089,"Brass Coupling 1"" Sch 40",FT-Coupling-1-Brass-50,False,verbatim,fitting,AUTO_MATCH,FT-Coupling-1-Brass-50,0.650,attributes agree 65,correct
+test-090,"25 Box Hex Bolt 5/16-18 x 1"" Grade 8 Zinc Hex Head",HB-516-18-1-Grade 8-Zinc,False,pack,fastener,AUTO_MATCH,HB-516-18-1-Grade 8-Zinc,1.350,attributes agree 135,correct
+test-091,10 Box Globe Valve 1/2 Stainless Steel 200# Flanged,GV-12-Stainless Steel-200,False,pack,valve,AUTO_MATCH,GV-12-Stainless Steel-200,0.650,attributes agree 65,correct
+test-092,"Hx Blt 5/16-18 x 3.5"" Gr8 Zinc",HB-516-18-35-Grade 8-Zinc,False,abbrev,fastener,AUTO_MATCH,HB-516-18-35-Grade 8-Zinc,1.350,attributes agree 135,correct
+test-093,Ball Valve 1/4 Stainless Steel 2-Way Full Port,BV-14-Stainless Steel,False,missing_unit,valve,AUTO_MATCH,BV-14-Stainless Steel,0.650,attributes agree 65,correct
+test-094,"Hx Blt 1/4-28 x 1.25"" Gr8 Plain",HB-14-28-125-Grade 8-Plain,False,german,fastener,AUTO_MATCH,HB-14-28-125-Grade 8-Plain,1.350,attributes agree 135,correct
+test-095,"10 Box Hex Bolt 7/16-14 x 4"" Grade 5 Plain Hex Head",HB-716-14-4-Grade 5-Plain,False,pack,fastener,AUTO_MATCH,HB-716-14-4-Grade 5-Plain,1.350,attributes agree 135,correct
+test-096,Globe Vlv 1 SS 125#,GV-1-Stainless Steel-125,False,abbrev,valve,NEEDS_REVIEW,GV-1-Stainless Steel-125,0.650,ambiguous vs GV-1-Stainless Steel-300,correct
+test-097,Worm Gear Hose Clamp 3/4 Range A,,True,gap,gap,NEEDS_REVIEW,BV-34-Brass,0.250,weak evidence 25,false_match
+test-098,Hex Bolt M16 x 100 Grade 12.9 Black Oxide,,True,gap,gap,GAP,,0.000,every candidate conflicted,correct
+test-099,"Stainless Elbow 4"" Schedule 80",,True,gap,gap,GAP,,0.000,every candidate conflicted,correct
+test-100,Hex Bolt 7/16-14 x 6 Zinc,,True,gap,gap,GAP,,0.000,every candidate conflicted,correct
+test-101,Deep Groove Ball Bearing 6300-2RS,BRG-6300-2RS,False,verbatim,bearing,AUTO_MATCH,BRG-6300-2RS,0.750,attributes agree 75,correct
+test-102,SKU-54930-R2,SHCS-M8-80-109,False,customer_pn,fastener,GAP,,0.000,no attributes extracted,missed
+test-103,Hex Bolt 9/16-12 x 5 Zinc Grade 5,,True,gap,gap,GAP,,0.000,every candidate conflicted,correct
+test-104,DGBB 6800-2RS,BRG-6800-2RS,False,german,bearing,AUTO_MATCH,BRG-6800-2RS,0.750,attributes agree 75,correct
+test-105,"SS Rdc 1-1/2"" Sch 40",FT-Reducer-112-Stainless Steel-1,False,abbrev,fitting,AUTO_MATCH,FT-Reducer-112-Stainless Steel-1,0.650,attributes agree 65,correct
+test-106,"PVC Reducer 1/2"" Sch 40",FT-Reducer-12-PVC-10,False,metric,fitting,AUTO_MATCH,FT-Reducer-12-PVC-10,0.650,attributes agree 65,correct
+test-107,Deep Groove Ball Bearing 6002-2RS,BRG-6002-2RS,False,wordorder,bearing,AUTO_MATCH,BRG-6002-2RS,0.750,attributes agree 75,correct
+test-108,"Hex Bolt 1/2-13 x 0.5"" Grade 8 Zinc Yellow Hex Head",HB-12-13-05-Grade 8-Zinc Yellow,False,verbatim,fastener,AUTO_MATCH,HB-12-13-05-Grade 8-Zinc Yellow,1.350,attributes agree 135,correct
+test-109,"25 Box Hex Bolt 7/16-14 x 2.5"" Grade 8 Zinc Yellow Hex Head",HB-716-14-25-Grade 8-Zinc Yellow,False,pack,fastener,AUTO_MATCH,HB-716-14-25-Grade 8-Zinc Yellow,1.350,attributes agree 135,correct
+test-110,SKU-59868-R2,HBM-M10-50-109,False,customer_pn,fastener,GAP,,0.000,no attributes extracted,missed
+test-111,"Hex Zinc Bolt Hex x Head 1.5"" 5 3/8-24 Grade Yellow",HB-38-24-15-Grade 5-Zinc Yellow,False,wordorder,fastener,AUTO_MATCH,HB-38-24-15-Grade 5-Zinc Yellow,1.350,attributes agree 135,correct
+test-112,"SS Rdc 1-1/4"" Sch 40",FT-Reducer-114-Stainless Steel-50,False,german,fitting,AUTO_MATCH,FT-Reducer-114-Stainless Steel-50,0.650,attributes agree 65,correct
+test-113,Hex Bolt 5/16-18 x 2.5 Grade 5 Zinc Hex Head,HB-516-18-25-Grade 5-Zinc,False,missing_unit,fastener,AUTO_MATCH,HB-516-18-25-Grade 5-Zinc,1.350,attributes agree 135,correct
+test-114,"Steel Tee 3"" Schedule 80",,True,gap,gap,GAP,,0.000,every candidate conflicted,correct
+test-115,Hex Bolt 3/8-24 x 2 Grade 8 Zinc Hex Head,HB-38-24-2-Grade 8-Zinc,False,missing_unit,fastener,AUTO_MATCH,HB-38-24-2-Grade 8-Zinc,1.350,attributes agree 135,correct
+test-116,"Hex Bolt 1/2-20 x 3"" Grade 5 Zinc Hex Head",HB-12-20-3-Grade 5-Zinc,False,metric,fastener,AUTO_MATCH,HB-12-20-3-Grade 5-Zinc,1.350,attributes agree 135,correct
+test-117,"Hex Bolt 1/2-13 x 3"" Grade 5 Zinc Yellow Hex Head",HB-12-13-3-Grade 5-Zinc Yellow,False,metric,fastener,AUTO_MATCH,HB-12-13-3-Grade 5-Zinc Yellow,1.350,attributes agree 135,correct
+test-118,"Hex Bolt 1/4-20 x 2"" Grade 8 Plain Hex Head",HB-14-20-2-Grade 8-Plain,False,verbatim,fastener,AUTO_MATCH,HB-14-20-2-Grade 8-Plain,1.350,attributes agree 135,correct
+test-119,Deep 6006-ZZ Bearing Groove Ball,BRG-6006-ZZ,False,wordorder,bearing,AUTO_MATCH,BRG-6006-ZZ,0.750,attributes agree 75,correct
+test-120,"Hex Bolt 5/16-18 x 0.5"" Grade 8 Plain Hex Head",HB-516-18-05-Grade 8-Plain,False,metric,fastener,AUTO_MATCH,HB-516-18-05-Grade 8-Plain,1.350,attributes agree 135,correct
+test-121,Hex Bolt 5/16-18 x 2.5 Grade 5 Zinc Hex Head,HB-516-18-25-Grade 5-Zinc,False,missing_unit,fastener,AUTO_MATCH,HB-516-18-25-Grade 5-Zinc,1.350,attributes agree 135,correct
+test-122,CUST-57197,HB-14-20-075-Grade 5-Plain,False,customer_pn,fastener,GAP,,0.000,no attributes extracted,missed
+test-123,"Elbow 90 4"" Schedule 80 Stainless",,True,gap,gap,GAP,,0.000,every candidate conflicted,correct
+test-124,"Hx Blt 5/8-11 x 1.5"" Gr8 verzinkt",HB-58-11-15-Grade 8-Zinc,False,german,fastener,AUTO_MATCH,HB-58-11-15-Grade 8-Zinc,1.350,attributes agree 135,correct
+test-125,Globe Vlv 1/2 Brass 150#,GV-12-Brass-150,False,abbrev,valve,AUTO_MATCH,GV-12-Brass-150,0.750,attributes agree 75,correct
+test-126,"SS Rdc 3/8"" Sch 40",FT-Reducer-38-Stainless Steel-50,False,abbrev,fitting,NEEDS_REVIEW,FT-Reducer-38-Stainless Steel-1,0.650,ambiguous vs FT-Reducer-38-Stainless Steel-50,false_gap
+test-127,"Carbon Steel 40 1-1/2"" Coupling Sch",FT-Coupling-112-Carbon Steel-1,False,wordorder,fitting,AUTO_MATCH,FT-Coupling-112-Carbon Steel-1,0.650,attributes agree 65,correct
+test-128,Brass Coupling 2 Sch 40,FT-Coupling-2-Brass-50,False,missing_unit,fitting,NEEDS_REVIEW,FT-Coupling-2-Brass-1,0.650,ambiguous vs FT-Coupling-2-Brass-50,false_gap
+test-129,Roller Bearing NU205 ECP,,True,gap,gap,GAP,,0.000,every candidate conflicted,correct
+test-130,Globe Vlv 1-1/4 Bronze 150#,GV-114-Bronze-150,False,german,valve,AUTO_MATCH,GV-114-Bronze-150,0.750,attributes agree 75,correct
+test-131,Hx Blt M10x50 A2-70 ISO 4762 Zn Pltd,HBM-M10-50-A270,False,german,fastener,AUTO_MATCH,HBM-M10-50-A270,1.200,attributes agree 120,correct
+test-132,Hx lBt M8x20 A2-70 ISO 4762 Zn Pltd,HBM-M8-20-A270,False,typo,fastener,AUTO_MATCH,HBM-M8-20-A270,0.900,attributes agree 90,correct
+test-133,10 Box Deep Groove Ball Bearing 6205-2Z,BRG-6205-2Z,False,pack,bearing,AUTO_MATCH,BRG-6205-2Z,0.750,attributes agree 75,correct
+test-134,Deep Groove Ball Bearing 6006-ZZ,BRG-6006-ZZ,False,missing_unit,bearing,AUTO_MATCH,BRG-6006-ZZ,0.750,attributes agree 75,correct
+test-135,"Hex Bolt 1/2-20 x 2"" Grade 5 Zinc Yellow Hex Head",HB-12-20-2-Grade 5-Zinc Yellow,False,metric,fastener,AUTO_MATCH,HB-12-20-2-Grade 5-Zinc Yellow,1.350,attributes agree 135,correct
+test-136,Deep Groove Ball Bearing 6009-2RS,,True,gap,gap,GAP,,0.000,every candidate conflicted,correct
+test-137,Deep Groove Ball Bearing 6204-ZZ,BRG-6204-ZZ,False,verbatim,bearing,AUTO_MATCH,BRG-6204-ZZ,0.750,attributes agree 75,correct
+test-138,Deep Groove Ball Bearing 6307-ZZ,,True,gap,gap,GAP,,0.000,every candidate conflicted,correct
+test-139,Globe Vlv 3/4 Brass 125#,GV-34-Brass-125,False,abbrev,valve,AUTO_MATCH,GV-34-Brass-125,0.750,attributes agree 75,correct
+test-140,"Hx Blt 3/8-24 x 1.5"" Gr5 verzinkt",HB-38-24-15-Grade 5-Zinc,False,german,fastener,AUTO_MATCH,HB-38-24-15-Grade 5-Zinc,1.350,attributes agree 135,correct
+test-141,"10 Box Hex Bolt 1/2-20 x 2"" Grade 5 Zinc Yellow Hex Head",HB-12-20-2-Grade 5-Zinc Yellow,False,pack,fastener,AUTO_MATCH,HB-12-20-2-Grade 5-Zinc Yellow,1.350,attributes agree 135,correct
+test-142,Hex Nut M20 Zinc,,True,gap,gap,GAP,,0.000,every candidate conflicted,correct
+test-143,Ball Valve 1/8 Brass 2-Way Full Port,BV-18-Brass,False,metric,valve,AUTO_MATCH,BV-18-Brass,0.650,attributes agree 65,correct
+test-144,10 Box Globe Valve 1-1/4 Brass 200# Flanged,GV-114-Brass-200,False,pack,valve,NEEDS_REVIEW,GV-114-Brass-125,0.650,ambiguous vs GV-114-Brass-200,false_gap
+test-145,"PVC Elb90 1/2"" Sch 40",FT-Elbow 90-12-PVC-10,False,abbrev,fitting,AUTO_MATCH,FT-Elbow 90-12-PVC-10,0.650,attributes agree 65,correct
+test-146,Ball Vlv 1/4 SS 2-Way,BV-14-Stainless Steel,False,german,valve,AUTO_MATCH,BV-14-Stainless Steel,0.650,attributes agree 65,correct
+test-147,Setzkopfschraube 6mm x 40mm 10.9 DIN 912,SHCS-M6-40-109,False,metric,fastener,GAP,,0.000,every candidate conflicted,missed
+test-148,Set Screw M8 x 20 Cup Point,,True,gap,gap,AUTO_MATCH,HBM-M8-20-A270,0.700,attributes agree 70,false_match
+test-149,"50 Carton Stainless Steel Elbow 90 1-1/2"" Sch 40",FT-Elbow 90-112-Stainless Steel-50,False,pack,fitting,NEEDS_REVIEW,FT-Elbow 90-112-Stainless Steel-1,0.650,ambiguous vs FT-Elbow 90-112-Stainless Steel-50,false_gap
+test-150,"Hx Blt 3/8-16 x 0.75"" Gr8 verzinkt",HB-38-16-075-Grade 8-Zinc,False,german,fastener,AUTO_MATCH,HB-38-16-075-Grade 8-Zinc,1.350,attributes agree 135,correct
+test-151,PN-79701-A,BRG-6301-2Z,False,customer_pn,bearing,GAP,,0.000,no attributes extracted,missed
+test-152,Hx Blt M6x80 8.8 ISO 4762 Zn Pltd,HBM-M6-80-88,False,abbrev,fastener,AUTO_MATCH,HBM-M6-80-88,1.200,attributes agree 120,correct
+test-153,"SS Elb90 1-1/2"" Sch 40",FT-Elbow 90-112-Stainless Steel-50,False,german,fitting,NEEDS_REVIEW,FT-Elbow 90-112-Stainless Steel-1,0.650,ambiguous vs FT-Elbow 90-112-Stainless Steel-50,false_gap
+test-154,PN-39608,BRG-6301-ZZ,False,customer_pn,bearing,GAP,,0.000,no attributes extracted,missed
+test-155,"Brass Reducer 1"" Sch 40",FT-Reducer-1-Brass-50,False,metric,fitting,AUTO_MATCH,FT-Reducer-1-Brass-50,0.650,attributes agree 65,correct
+test-156,Deep Groove Ball Bearing 6200-2Z,BRG-6200-2Z,False,verbatim,bearing,AUTO_MATCH,BRG-6200-2Z,0.750,attributes agree 75,correct
+test-157,Setzkopfschraube M8x80 10.9 DIN 912,SHCS-M8-80-109,False,missing_unit,fastener,AUTO_MATCH,SHCS-M8-80-109,1.100,attributes agree 110,correct
+test-158,CUST-80597-R2,SHCS-M12-50-88,False,customer_pn,fastener,GAP,,0.000,no attributes extracted,missed
+test-159,"Hex Bolt 3/8-24 x 4"" Grade 8 Zinc Hex Head",HB-38-24-4-Grade 8-Zinc,False,verbatim,fastener,AUTO_MATCH,HB-38-24-4-Grade 8-Zinc,1.350,attributes agree 135,correct
+test-160,Deep Groove Ball Bearing 6006-ZZ,BRG-6006-ZZ,False,verbatim,bearing,AUTO_MATCH,BRG-6006-ZZ,0.750,attributes agree 75,correct
+test-161,Deep Groove Ball Bearing 6302-2Z,BRG-6302-2Z,False,metric,bearing,AUTO_MATCH,BRG-6302-2Z,0.750,attributes agree 75,correct
+test-162,"Carbon Sch Steel 90 Elbow 40 1/2""",FT-Elbow 90-12-Carbon Steel-10,False,wordorder,fitting,NEEDS_REVIEW,FT-Elbow 90-12-Carbon Steel-1,0.650,ambiguous vs FT-Elbow 90-12-Carbon Steel-10,false_gap
+test-163,25 Box Globe Valve 1-1/2 Stainless Steel 300# Flanged,GV-112-Stainless Steel-300,False,pack,valve,AUTO_MATCH,GV-112-Stainless Steel-300,0.750,attributes agree 75,correct
+test-164,10 Box Globe Valve 2 Brass 150# Flanged,GV-2-Brass-150,False,pack,valve,AUTO_MATCH,GV-2-Brass-150,0.750,attributes agree 75,correct
+test-165,"10 Box Hex Bolt 3/8-24 x 1.5"" Grade 5 Zinc Yellow Hex Head",HB-38-24-15-Grade 5-Zinc Yellow,False,pack,fastener,AUTO_MATCH,HB-38-24-15-Grade 5-Zinc Yellow,1.350,attributes agree 135,correct
+test-166,"SS Elb90 3/8"" Sch 40",FT-Elbow 90-38-Stainless Steel-50,False,german,fitting,NEEDS_REVIEW,FT-Elbow 90-38-Stainless Steel-1,0.650,ambiguous vs FT-Elbow 90-38-Stainless Steel-50,false_gap
+test-167,Stainless Steel Tee 1/2 Sch 40,FT-Tee-12-Stainless Steel-1,False,missing_unit,fitting,AUTO_MATCH,FT-Tee-12-Stainless Steel-1,0.650,attributes agree 65,correct
+test-168,Deep Groove Ball Bearing 6204-ZZ,BRG-6204-ZZ,False,verbatim,bearing,AUTO_MATCH,BRG-6204-ZZ,0.750,attributes agree 75,correct
+test-169,"Steel Coupling 2-1/2"" Schedule 80",,True,gap,gap,GAP,,0.000,every candidate conflicted,correct
+test-170,"Brass Reducer 3/4"" Sch 40",FT-Reducer-34-Brass-50,False,metric,fitting,AUTO_MATCH,FT-Reducer-34-Brass-50,0.650,attributes agree 65,correct
+test-171,"Carbon Sch Steel Tee 40 1/2""",FT-Tee-12-Carbon Steel-1,False,wordorder,fitting,AUTO_MATCH,FT-Tee-12-Carbon Steel-1,0.650,attributes agree 65,correct
+test-172,Hex 8.8 Plated M10x16 4762 Zinc Bolt ISO,HBM-M10-16-88,False,wordorder,fastener,NEEDS_REVIEW,HBM-M10-16-88,1.000,ambiguous vs HBM-M10-20-88,correct
+test-173,Globe Vlv 1 Brass 300#,GV-1-Brass-300,False,german,valve,AUTO_MATCH,GV-1-Brass-300,0.750,attributes agree 75,correct
+test-174,Globe Valve 1-1/4 Carbon Steel 125# Flanged,GV-114-Carbon Steel-125,False,metric,valve,AUTO_MATCH,GV-114-Carbon Steel-125,0.750,attributes agree 75,correct
+test-175,PN-96107-A,GV-18-Brass-300,False,customer_pn,valve,GAP,,0.000,no attributes extracted,missed
+test-176,Deep Groove Ball Bearing 6303-ZZ,BRG-6303-ZZ,False,missing_unit,bearing,AUTO_MATCH,BRG-6303-ZZ,0.750,attributes agree 75,correct
+test-177,Hex Bolt M10x20 8.8 ISO 4762 Zinc Plated,HBM-M10-20-88,False,missing_unit,fastener,NEEDS_REVIEW,HBM-M10-16-88,1.000,ambiguous vs HBM-M10-20-88,false_gap
+test-178,Globe Valve 3/4 Bronze 150# Flanged,GV-34-Bronze-150,False,metric,valve,AUTO_MATCH,GV-34-Bronze-150,0.750,attributes agree 75,correct
+test-179,Deep Groove Ball Bearing 6309-2Z,,True,gap,gap,GAP,,0.000,every candidate conflicted,correct
+test-180,Globe 300# Valve Flanged 1/8 Brass,GV-18-Brass-300,False,wordorder,valve,AUTO_MATCH,GV-18-Brass-300,0.650,attributes agree 65,correct
+test-181,"SS Tee 1/2"" Sch 40",FT-Tee-12-Stainless Steel-1,False,abbrev,fitting,AUTO_MATCH,FT-Tee-12-Stainless Steel-1,0.650,attributes agree 65,correct
+test-182,Deep Groove Ball Bearing 6006-2Z,BRG-6006-2Z,False,verbatim,bearing,AUTO_MATCH,BRG-6006-2Z,0.750,attributes agree 75,correct
+test-183,DGBB 6001-2RS,BRG-6001-2RS,False,german,bearing,AUTO_MATCH,BRG-6001-2RS,0.750,attributes agree 75,correct
+test-184,Hex Bolt M16 x 100 Grade 12.9 Black Oxide,,True,gap,gap,GAP,,0.000,every candidate conflicted,correct
+test-185,Flat Washer 7/16 Zinc Yellow,,True,gap,gap,GAP,,0.000,every candidate conflicted,correct
+test-186,DGBB 6005-2Z,BRG-6005-2Z,False,german,bearing,AUTO_MATCH,BRG-6005-2Z,0.750,attributes agree 75,correct
+test-187,"10 Box PVC Reducer 1/2"" Sch 40",FT-Reducer-12-PVC-10,False,pack,fitting,AUTO_MATCH,FT-Reducer-12-PVC-10,0.650,attributes agree 65,correct
+test-188,Hydraulic Fitting JIC 3/4-16 x 1-1/16,,True,gap,gap,GAP,,0.000,no attributes extracted,correct
+test-189,Flat Washer M20 Stainless,,True,gap,gap,GAP,,0.000,every candidate conflicted,correct
+test-190,CUST-96851-A,HBM-M12-35-A270,False,customer_pn,fastener,GAP,,0.000,no attributes extracted,missed
+test-191,Carriage Bolt 3/8-16 x 4 Zinc,,True,gap,gap,GAP,,0.000,every candidate conflicted,correct
+test-192,"10 Box Hex Bolt 5/16-18 x 2.5"" Grade 5 Zinc Hex Head",HB-516-18-25-Grade 5-Zinc,False,pack,fastener,AUTO_MATCH,HB-516-18-25-Grade 5-Zinc,1.350,attributes agree 135,correct
+test-193,Anchor Bolt M16 x 180 Hot Dip Galv,,True,gap,gap,GAP,,0.000,every candidate conflicted,correct
+test-194,INT-39338,GV-114-Stainless Steel-200,False,customer_pn,valve,GAP,,0.000,no attributes extracted,missed
+test-195,"Grooved Coupling 6"" Ductile Iron",,True,gap,gap,GAP,,0.000,every candidate conflicted,correct
+test-196,"Hex 8 Head Hex x Zinc 2.5"" Bolt Yellow 3/8-16 Grade",HB-38-16-25-Grade 8-Zinc Yellow,False,wordorder,fastener,AUTO_MATCH,HB-38-16-25-Grade 8-Zinc Yellow,1.250,attributes agree 125,correct
+test-197,DGBB 2601-2Z,BRG-6201-2Z,False,typo,bearing,GAP,,0.000,every candidate conflicted,missed
+test-198,Globe Valve 1 Brass 125# Flanged,GV-1-Brass-125,False,missing_unit,valve,NEEDS_REVIEW,GV-1-Brass-125,0.650,ambiguous vs GV-1-Brass-300,correct
+test-199,"Hx Blt 3/4-10 x 4"" rG5 Zm Yel",HB-34-10-4-Grade 5-Zinc Yellow,False,typo,fastener,AUTO_MATCH,HB-34-10-4-Grade 5-Zinc Yellow,1.250,attributes agree 125,correct

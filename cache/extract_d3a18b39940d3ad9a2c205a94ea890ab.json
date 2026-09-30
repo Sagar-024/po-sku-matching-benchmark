@@ -1,0 +1,202 @@
+[
+ {
+  "type": null,
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Globe Valve",
+  "size": "1-1/2",
+  "thread": null,
+  "length": null,
+  "material": "Carbon Steel",
+  "finish": null,
+  "grade": "200#",
+  "bearing": null
+ },
+ {
+  "type": "Deep Bearing Groove Ball",
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": "6201-2RS"
+ },
+ {
+  "type": "Ball Valve",
+  "size": "3\"",
+  "thread": null,
+  "length": null,
+  "material": "Bronze",
+  "finish": null,
+  "grade": "125#",
+  "bearing": null
+ },
+ {
+  "type": null,
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Cplg",
+  "size": "3/4\"",
+  "thread": null,
+  "length": null,
+  "material": "Brass",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Tee",
+  "size": "1/2\"",
+  "thread": null,
+  "length": null,
+  "material": "Stainless Steel",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "DGBB",
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": "6005-ZZ"
+ },
+ {
+  "type": "DGBB",
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": "6002-ZZ"
+ },
+ {
+  "type": "Hx Blt",
+  "size": null,
+  "thread": "1/2-20",
+  "length": "3\"",
+  "material": null,
+  "finish": "verzinkt",
+  "grade": "Gr5",
+  "bearing": null
+ },
+ {
+  "type": "DGBB",
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": "6206-ZZ"
+ },
+ {
+  "type": "Globe Vlv",
+  "size": "1/4",
+  "thread": null,
+  "length": null,
+  "material": "SS",
+  "finish": null,
+  "grade": "200#",
+  "bearing": null
+ },
+ {
+  "type": "Globe Valve",
+  "size": "4\"",
+  "thread": null,
+  "length": null,
+  "material": "Carbon Steel",
+  "finish": null,
+  "grade": "600#",
+  "bearing": null
+ },
+ {
+  "type": "Elb9",
+  "size": "01/2\"",
+  "thread": null,
+  "length": null,
+  "material": "PVC",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Ball Valve",
+  "size": "1/2\"",
+  "thread": null,
+  "length": null,
+  "material": "PVC",
+  "finish": null,
+  "grade": "150#",
+  "bearing": null
+ },
+ {
+  "type": null,
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Taper Lock Bushing",
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Hex Bolt",
+  "size": null,
+  "thread": "M14",
+  "length": "60",
+  "material": null,
+  "finish": "Zinc",
+  "grade": "8.8",
+  "bearing": null
+ },
+ {
+  "type": "Hx Blt",
+  "size": null,
+  "thread": "7/16-14",
+  "length": "4\"",
+  "material": null,
+  "finish": "Zn Yel",
+  "grade": "Gr5",
+  "bearing": null
+ },
+ {
+  "type": "Elbow 90",
+  "size": "1-1/2\"",
+  "thread": null,
+  "length": null,
+  "material": "PVC",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ }
+]

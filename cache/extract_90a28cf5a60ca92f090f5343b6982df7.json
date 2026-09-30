@@ -1,0 +1,202 @@
+[
+ {
+  "type": "Hex Bolt",
+  "size": null,
+  "thread": "7/16-14",
+  "length": "6",
+  "material": null,
+  "finish": "Zinc",
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Deep Groove Ball Bearing",
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": "6300-2RS"
+ },
+ {
+  "type": null,
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Hex Bolt",
+  "size": null,
+  "thread": "9/16-12",
+  "length": "5",
+  "material": null,
+  "finish": "Zinc",
+  "grade": "Grade 5",
+  "bearing": null
+ },
+ {
+  "type": "DGBB",
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": "6800-2RS"
+ },
+ {
+  "type": "Rdc",
+  "size": "1-1/2\"",
+  "thread": null,
+  "length": null,
+  "material": "SS",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Reducer",
+  "size": "1/2\"",
+  "thread": null,
+  "length": null,
+  "material": "PVC",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Deep Groove Ball Bearing",
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": "6002-2RS"
+ },
+ {
+  "type": "Hex Bolt",
+  "size": null,
+  "thread": "1/2-13",
+  "length": "0.5\"",
+  "material": null,
+  "finish": "Zinc Yellow",
+  "grade": "Grade 8",
+  "bearing": null
+ },
+ {
+  "type": "Hex Bolt",
+  "size": null,
+  "thread": "7/16-14",
+  "length": "2.5\"",
+  "material": null,
+  "finish": "Zinc Yellow",
+  "grade": "Grade 8",
+  "bearing": null
+ },
+ {
+  "type": null,
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Hex Bolt",
+  "size": null,
+  "thread": "3/8-24",
+  "length": "1.5\"",
+  "material": null,
+  "finish": "Zinc Yellow",
+  "grade": "Grade 5",
+  "bearing": null
+ },
+ {
+  "type": "Rdc",
+  "size": "1-1/4\"",
+  "thread": null,
+  "length": null,
+  "material": "SS",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Hex Bolt",
+  "size": null,
+  "thread": "5/16-18",
+  "length": "2.5",
+  "material": null,
+  "finish": "Zinc",
+  "grade": "Grade 5",
+  "bearing": null
+ },
+ {
+  "type": "Tee",
+  "size": "3\"",
+  "thread": null,
+  "length": null,
+  "material": "Steel",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Hex Bolt",
+  "size": null,
+  "thread": "3/8-24",
+  "length": "2",
+  "material": null,
+  "finish": "Zinc",
+  "grade": "Grade 8",
+  "bearing": null
+ },
+ {
+  "type": "Hex Bolt",
+  "size": null,
+  "thread": "1/2-20",
+  "length": "3\"",
+  "material": null,
+  "finish": "Zinc",
+  "grade": "Grade 5",
+  "bearing": null
+ },
+ {
+  "type": "Hex Bolt",
+  "size": null,
+  "thread": "1/2-13",
+  "length": "3\"",
+  "material": null,
+  "finish": "Zinc Yellow",
+  "grade": "Grade 5",
+  "bearing": null
+ },
+ {
+  "type": "Hex Bolt",
+  "size": null,
+  "thread": "1/4-20",
+  "length": "2\"",
+  "material": null,
+  "finish": "Plain",
+  "grade": "Grade 8",
+  "bearing": null
+ },
+ {
+  "type": "Deep Groove Ball Bearing",
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": "6006-ZZ"
+ }
+]

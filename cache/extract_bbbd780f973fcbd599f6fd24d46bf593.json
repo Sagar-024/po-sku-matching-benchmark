@@ -1,0 +1,202 @@
+[
+ {
+  "type": "Deep Groove Ball Bearing",
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": "6006-ZZ"
+ },
+ {
+  "type": "Deep Groove Ball Bearing",
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": "6302-2Z"
+ },
+ {
+  "type": "90 Elbow",
+  "size": "1/2\"",
+  "thread": null,
+  "length": null,
+  "material": "Carbon Sch Steel",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Box Globe Valve",
+  "size": "1-1/2",
+  "thread": null,
+  "length": null,
+  "material": "Stainless Steel",
+  "finish": null,
+  "grade": "300#",
+  "bearing": null
+ },
+ {
+  "type": "Box Globe Valve",
+  "size": "2",
+  "thread": null,
+  "length": null,
+  "material": "Brass",
+  "finish": null,
+  "grade": "150#",
+  "bearing": null
+ },
+ {
+  "type": "Hex Bolt",
+  "size": null,
+  "thread": "3/8-24",
+  "length": "1.5\"",
+  "material": null,
+  "finish": "Zinc Yellow",
+  "grade": "Grade 5",
+  "bearing": null
+ },
+ {
+  "type": "Elb90",
+  "size": "3/8\"",
+  "thread": null,
+  "length": null,
+  "material": "SS",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Tee",
+  "size": "1/2",
+  "thread": null,
+  "length": null,
+  "material": "Stainless Steel",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Deep Groove Ball Bearing",
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": "6204-ZZ"
+ },
+ {
+  "type": "Coupling",
+  "size": "2-1/2\"",
+  "thread": null,
+  "length": null,
+  "material": "Steel",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Reducer",
+  "size": "3/4\"",
+  "thread": null,
+  "length": null,
+  "material": "Brass",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Tee",
+  "size": "1/2\"",
+  "thread": null,
+  "length": null,
+  "material": "Carbon Sch Steel",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Hex Bolt",
+  "size": null,
+  "thread": "M10x16",
+  "length": null,
+  "material": null,
+  "finish": "Zinc Plated",
+  "grade": "8.8",
+  "bearing": null
+ },
+ {
+  "type": "Globe Vlv",
+  "size": "1",
+  "thread": null,
+  "length": null,
+  "material": "Brass",
+  "finish": null,
+  "grade": "300#",
+  "bearing": null
+ },
+ {
+  "type": "Globe Valve",
+  "size": "1-1/4",
+  "thread": null,
+  "length": null,
+  "material": "Carbon Steel",
+  "finish": null,
+  "grade": "125#",
+  "bearing": null
+ },
+ {
+  "type": null,
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Deep Groove Ball Bearing",
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": "6303-ZZ"
+ },
+ {
+  "type": "Hex Bolt",
+  "size": null,
+  "thread": "M10x20",
+  "length": null,
+  "material": null,
+  "finish": "Zinc Plated",
+  "grade": "8.8",
+  "bearing": null
+ },
+ {
+  "type": "Globe Valve",
+  "size": "3/4",
+  "thread": null,
+  "length": null,
+  "material": "Bronze",
+  "finish": null,
+  "grade": "150#",
+  "bearing": null
+ },
+ {
+  "type": "Deep Groove Ball Bearing",
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": "6309-2Z"
+ }
+]

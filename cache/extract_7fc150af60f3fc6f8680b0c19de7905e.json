@@ -1,0 +1,202 @@
+[
+ {
+  "type": "Hex Bolt",
+  "size": null,
+  "thread": "5/16-18",
+  "length": "0.5\"",
+  "material": null,
+  "finish": "Plain",
+  "grade": "Grade 8",
+  "bearing": null
+ },
+ {
+  "type": "Hex Bolt",
+  "size": null,
+  "thread": "5/16-18",
+  "length": "2.5",
+  "material": null,
+  "finish": "Zinc",
+  "grade": "Grade 5",
+  "bearing": null
+ },
+ {
+  "type": null,
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Elbow 90",
+  "size": "4\"",
+  "thread": null,
+  "length": null,
+  "material": "Stainless",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Hx Blt",
+  "size": null,
+  "thread": "5/8-11",
+  "length": "1.5\"",
+  "material": null,
+  "finish": "verzinkt",
+  "grade": "Gr8",
+  "bearing": null
+ },
+ {
+  "type": "Globe Vlv",
+  "size": "1/2",
+  "thread": null,
+  "length": null,
+  "material": "Brass",
+  "finish": null,
+  "grade": "150#",
+  "bearing": null
+ },
+ {
+  "type": "Rdc",
+  "size": "3/8\"",
+  "thread": null,
+  "length": null,
+  "material": "SS",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Coupling",
+  "size": "1-1/2\"",
+  "thread": null,
+  "length": null,
+  "material": "Carbon Steel",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Coupling",
+  "size": "2",
+  "thread": null,
+  "length": null,
+  "material": "Brass",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Roller Bearing",
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": "NU205 ECP"
+ },
+ {
+  "type": "Globe Vlv",
+  "size": "1-1/4",
+  "thread": null,
+  "length": null,
+  "material": "Bronze",
+  "finish": null,
+  "grade": "150#",
+  "bearing": null
+ },
+ {
+  "type": "Hx Blt",
+  "size": null,
+  "thread": "M10",
+  "length": "50",
+  "material": null,
+  "finish": "Zn Pltd",
+  "grade": "A2-70",
+  "bearing": null
+ },
+ {
+  "type": "Hx lBt",
+  "size": null,
+  "thread": "M8",
+  "length": "20",
+  "material": null,
+  "finish": "Zn Pltd",
+  "grade": "A2-70",
+  "bearing": null
+ },
+ {
+  "type": "Deep Groove Ball Bearing",
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": "6205-2Z"
+ },
+ {
+  "type": "Deep Groove Ball Bearing",
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": "6006-ZZ"
+ },
+ {
+  "type": "Hex Bolt",
+  "size": null,
+  "thread": "1/2-20",
+  "length": "2\"",
+  "material": null,
+  "finish": "Zinc Yellow",
+  "grade": "Grade 5",
+  "bearing": null
+ },
+ {
+  "type": "Deep Groove Ball Bearing",
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": "6009-2RS"
+ },
+ {
+  "type": "Deep Groove Ball Bearing",
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": "6204-ZZ"
+ },
+ {
+  "type": "Deep Groove Ball Bearing",
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": "6307-ZZ"
+ },
+ {
+  "type": "Globe Vlv",
+  "size": "3/4",
+  "thread": null,
+  "length": null,
+  "material": "Brass",
+  "finish": null,
+  "grade": "125#",
+  "bearing": null
+ }
+]

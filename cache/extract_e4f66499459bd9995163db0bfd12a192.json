@@ -1,0 +1,202 @@
+[
+ {
+  "type": "Hx Blt",
+  "size": null,
+  "thread": "3/8-24",
+  "length": "1.5\"",
+  "material": null,
+  "finish": "verzinkt",
+  "grade": "Gr5",
+  "bearing": null
+ },
+ {
+  "type": "Hex Bolt",
+  "size": null,
+  "thread": "1/2-20",
+  "length": "2\"",
+  "material": null,
+  "finish": "Zinc Yellow",
+  "grade": "Grade 5",
+  "bearing": null
+ },
+ {
+  "type": "Hex Nut",
+  "size": null,
+  "thread": "M20",
+  "length": null,
+  "material": null,
+  "finish": "Zinc",
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Ball Valve",
+  "size": "1/8",
+  "thread": null,
+  "length": null,
+  "material": "Brass",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Globe Valve",
+  "size": "1-1/4",
+  "thread": null,
+  "length": null,
+  "material": "Brass",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Elb90",
+  "size": "1/2\"",
+  "thread": null,
+  "length": null,
+  "material": "PVC",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Ball Vlv",
+  "size": "1/4",
+  "thread": null,
+  "length": null,
+  "material": "SS",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Setzkopfschraube",
+  "size": "6mm",
+  "thread": null,
+  "length": "40mm",
+  "material": null,
+  "finish": null,
+  "grade": "10.9",
+  "bearing": null
+ },
+ {
+  "type": "Set Screw",
+  "size": null,
+  "thread": "M8",
+  "length": "20",
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Elbow 90",
+  "size": "1-1/2\"",
+  "thread": null,
+  "length": null,
+  "material": "Stainless Steel",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Hx Blt",
+  "size": null,
+  "thread": "3/8-16",
+  "length": "0.75\"",
+  "material": null,
+  "finish": "verzinkt",
+  "grade": "Gr8",
+  "bearing": null
+ },
+ {
+  "type": null,
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Hx Blt",
+  "size": null,
+  "thread": "M6",
+  "length": "80",
+  "material": null,
+  "finish": "Zn Pltd",
+  "grade": "8.8",
+  "bearing": null
+ },
+ {
+  "type": "Elb90",
+  "size": "1-1/2\"",
+  "thread": null,
+  "length": null,
+  "material": "SS",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": null,
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Reducer",
+  "size": "1\"",
+  "thread": null,
+  "length": null,
+  "material": "Brass",
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Deep Groove Ball Bearing",
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": "6200-2Z"
+ },
+ {
+  "type": "Setzkopfschraube",
+  "size": null,
+  "thread": "M8",
+  "length": "80",
+  "material": null,
+  "finish": null,
+  "grade": "10.9",
+  "bearing": null
+ },
+ {
+  "type": null,
+  "size": null,
+  "thread": null,
+  "length": null,
+  "material": null,
+  "finish": null,
+  "grade": null,
+  "bearing": null
+ },
+ {
+  "type": "Hex Bolt",
+  "size": null,
+  "thread": "3/8-24",
+  "length": "4\"",
+  "material": null,
+  "finish": "Zinc",
+  "grade": "Grade 8",
+  "bearing": null
+ }
+]

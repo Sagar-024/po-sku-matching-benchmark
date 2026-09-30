@@ -1,0 +1,22 @@
+{
+  "seed": 20260930,
+  "synthetic": true,
+  "catalog_skus": 275,
+  "dev_rows": 100,
+  "test_rows": 200,
+  "gap_fraction": 0.15,
+  "test_sha256": "3ccceeae8f9a2bb19538f6f7c95ba9ebaff0a94a5a5ab855c14fa0216e34cf69",
+  "dev_sha256": "d98aa387564f55c37455ad9cc7840414cae36e5d836b94749079e95ffd8080e6",
+  "styles": [
+    "verbatim",
+    "abbrev",
+    "wordorder",
+    "typo",
+    "missing_unit",
+    "metric",
+    "german",
+    "customer_pn",
+    "pack"
+  ],
+  "note": "test.csv is FROZEN. Never edit it after matchers are built. All data is synthetic."
+}
